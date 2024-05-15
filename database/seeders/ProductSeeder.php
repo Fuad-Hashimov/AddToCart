@@ -24,7 +24,7 @@ class ProductSeeder extends Seeder
                 'brand' => 'Samsung',
                 'price' => 2490,
                 'shopping_cost' => 25,
-                'image_path' => 'storage/product.png'
+                'image_path' => 'storage/product.jpg'
             ],
             [
                 'name' => 'Iphone 14',
@@ -34,7 +34,7 @@ class ProductSeeder extends Seeder
                 'brand' => 'Apple',
                 'price' => 2500,
                 'shopping_cost' => 25,
-                'image_path' => 'storage/product2.png'
+                'image_path' => 'storage/product2.jpeg'
             ],
             [
                 'name' => 'Iphone 15',
@@ -44,7 +44,7 @@ class ProductSeeder extends Seeder
                 'brand' => 'Apple',
                 'price' => 3190,
                 'shopping_cost' => 25,
-                'image_path' => 'storage/product3.png'
+                'image_path' => 'storage/product3.jpeg'
             ],
         ];
         foreach($products as $key => $value){
